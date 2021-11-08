@@ -45,4 +45,7 @@ Steps in a Typical Data Science Study
 - tuning the model and evaluating its accuracy
 - making predictions on live data that the model hasn't seen before
 
+Simple Linear Regression
+- regression line = single line that best fits the data (in terms of having the smallest overall distance from the line to the points)
+
 '''
