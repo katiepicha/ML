@@ -45,7 +45,39 @@ Steps in a Typical Data Science Study
 - tuning the model and evaluating its accuracy
 - making predictions on live data that the model hasn't seen before
 
+<<<<<<< HEAD
 Simple Linear Regression
 - regression line = single line that best fits the data (in terms of having the smallest overall distance from the line to the points)
+=======
+DIGITS DATASET
+- digits is a bunch object
+    - a bunch is a dictionary with additional dataset-specific attributes
+    - the bunch object has 3 different attributes
+        1) data - contains all of our samples
+        2) target - the images' labels, (classes) indicating which digit each image represents
+        3) images - a Numpy array of type float that represents the pixel intensity for each pixel in an 8-by-8 image
+
+Splitting the Data for Training and Testing
+- Typically train a model with a subset of a dataset
+- Save a portion for testing, so you can evaluate a model’s performance using unseen data
+- Function train_test_split shuffles the data to randomize it, then splits the samples in the data array 
+  and the target values in the target array into training and testing sets
+- Shuffling helps ensure that the training and testing sets have similar characteristics
+- By default, train_test_split reserves 75% of the data for training and 25% for testing
+
+Creating the Model
+- In scikit-learn, models are called estimators
+    - KNeighborsClassifier estimator implements the k-nearest neighbors algorithm
+- Train the model using the ‘fit’ method
+    - A ‘fit’ method of a model typically loads the data into the model and performs complex calculations. 
+      The KNeighborsClassifier fit method just loads the data but does not perform any calculations (training)
+
+Confusion Matrix
+- shows correct and incorrect predicted values (the hits and misses) for a given class
+- correct predictions are shown on the principle diagonal from top left to bottom right
+- nonzero values not on the principle diagonal indicate incorrect predictions
+- each row represents one distinct class
+- columns specify how many test samples were classified into classes
+>>>>>>> bdc5d4647891666bec895d9518e82495c0357d4c
 
 '''
