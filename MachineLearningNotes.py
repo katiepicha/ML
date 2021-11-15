@@ -45,6 +45,10 @@ Steps in a Typical Data Science Study
 - tuning the model and evaluating its accuracy
 - making predictions on live data that the model hasn't seen before
 
+<<<<<<< HEAD
+Simple Linear Regression
+- regression line = single line that best fits the data (in terms of having the smallest overall distance from the line to the points)
+=======
 DIGITS DATASET
 - digits is a bunch object
     - a bunch is a dictionary with additional dataset-specific attributes
@@ -74,5 +78,6 @@ Confusion Matrix
 - nonzero values not on the principle diagonal indicate incorrect predictions
 - each row represents one distinct class
 - columns specify how many test samples were classified into classes
+>>>>>>> bdc5d4647891666bec895d9518e82495c0357d4c
 
 '''
