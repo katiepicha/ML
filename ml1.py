@@ -85,9 +85,4 @@ confusion_df = pd.DataFrame(confusion, index = range(10), columns = range(10))
 figure = plt2.figure(figsize = (7,6))
 axes = sns.heatmap(confusion_df, annot = True, cmap = plt2.cm.nipy_spectral_r) # higher the number, the darker the scale
 
-<<<<<<< HEAD
 plt2.show()
-=======
-plt2.show()
-
->>>>>>> bdc5d4647891666bec895d9518e82495c0357d4c
